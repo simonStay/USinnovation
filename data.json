@@ -1,0 +1,105 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "is anyone there",
+                "Hello",
+                "Good day"
+            ],
+            "response": [
+                "Hello,thanks for visiting",
+                "Good to see you again",
+                "Hi there,how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "By",
+                "See you later",
+                "Goodbye"
+            ],
+            "response": [
+                "See you later",
+                "thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon"
+            ]
+        },
+        {
+            "tag": "StayingSafeAtWork",
+            "patterns": [
+                "How do I keep employees who interact with customers safe?"
+            ],
+            "response": [
+                "Employees who have been in close contact with an exposed or symptomatic person (within 6 feet for at least 10 minutes) should not report to work and should self-quarantine."
+            ]
+        },
+        {
+            "tag": "spreadviafood",
+            "patterns": [
+                "does the virus stick to packaged food?",
+                "does it spread on food packaging?",
+                "Can the virus that causes COVID-19 be spread through food, including refrigerated or frozen food?",
+                "do I need to wash my groceries?"
+            ],
+            "response": [
+                "Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom."
+            ]
+        },
+        {
+            "tag": "NegativeTestResults",
+            "patterns": [
+                "Can you have corona virus and still test negative?",
+                "if you test negative can you still get COVID-19 later?",
+                "Negative test results",
+                "Does a negative test mean a person does not have COVID-19?",
+                "Can a person test negative and later test positive for COVID-19?"
+            ],
+            "response": [
+                "Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person's sample. In the early stages of infection, it is possible the virus will not be detected. For COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness."
+            ]
+        },
+        {
+            "tag": "Whythename",
+            "patterns": [
+                "Why the name",
+                "why was covid-19 used to name this disease?",
+                "is covid an abbreviation?",
+                "why is covid-19 the name for this disease?",
+                "Why is the disease being called coronavirus disease 2019, COVID-19?",
+                "is corona virus the same as covid-19?"
+            ],
+            "response": [
+                " The World Health Organization (WHO) declared an official name for the new coronavirus disease: COVID-19 — making sure not to reference Wuhan, the central Chinese city where the virus originated. COVID-19 stands for Corona Virus Disease 19."
+            ]
+        },
+        {
+            "tag": "symptoms",
+            "patterns": [
+                "what are the symptoms of covid-19?",
+                "How do I know that I have covid-19 ?",
+                "Am I infected by covid-19?"
+            ],
+            "response": [
+                "People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. People with these symptoms may have COVID-19:Fever or chills Cough Shortness of breath or difficulty breathing Fatigue Muscle or body aches Headache New loss of taste or smell Sore throat Congestion or runny nose Nausea or vomiting Diarrhea"
+            ]
+        },
+        {
+            "tag": "thanking",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "response": [
+                "Happy to help",
+                "Any time!",
+                "My pleasure"
+            ]
+        }
+    ]
+}
